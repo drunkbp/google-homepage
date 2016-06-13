@@ -1,0 +1,67 @@
+#logo {
+  display: block;
+  top: 30%;
+  left:48%;
+  margin-top: -25px;
+  margin-left: -90px;
+  position: fixed;
+  /* This can be used to center content on a webpage. Change values to 50%, 50%, -50px, -100px respectively*/
+}
+
+#search {
+  position: fixed;
+  display: block;
+  top: 40%;
+  left: 40%;
+/* position property must be used to properly move content box's */
+}
+
+#nav {
+  position: fixed;
+  top:2%;
+  left:80%;
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  padding-top: 10px;
+  float: right;
+  font-size: small;
+  font-family: sans-serif,serif;
+}
+
+#nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+
+
+#footerL {
+  position: fixed;
+  top: 93%;
+  left: 2%;
+  margin: 0;
+  padding: 0;
+  background-color: #ccc;
+  border: 17px solid #ccc;
+  border-right: 220px solid #ccc;
+}
+
+#footerL li {
+  display: inline;
+}
+#footerR {
+  position: fixed;
+  top: 93%;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  background-color: #ccc;
+  border: 17px solid #ccc;
+  border-left: 250px solid #ccc;
+}
+
+#footerR li{
+  display: inline;
+
+}
